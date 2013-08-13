@@ -52,11 +52,7 @@ to Tree::Ternary should be sent to me at mrogaski@cpan.org.
 
 AVAILABILITY
 
-The latest version of Tree::Ternary is available at:
-
-	http://www.perl.com/CPAN/modules/by-authors/id/MROGASKI/
-
-or also at:
+The latest version of Tree::Ternary is available on CPAN or at:
 
 	https://github.com/mrogaski/Tree-Ternary
 
@@ -82,7 +78,7 @@ SEE ALSO
 
 Bentley, Jon and Sedgewick, Robert.  "Ternary Search Trees".  Dr. Dobb's
 Journal, April 1998.
-http://www.ddj.com/articles/1998/9804/9804a/9804a.htm
+http://www.drdobbs.com/database/ternary-search-trees/184410528
 
 Bentley, Jon and Sedgewick, Robert.  "Fast Algorithms for Sorting and
 Searching Strings".  Eighth Annual ACM-SIAM Symposium on Discrete Algorithms

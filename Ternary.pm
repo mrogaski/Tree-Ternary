@@ -675,11 +675,13 @@ same terms as Perl itself.
 =head1 SEE ALSO
 
 Bentley, Jon and Sedgewick, Robert.  "Ternary Search Trees".  Dr. Dobbs Journal,
-April 1998.  http://www.ddj.com/articles/1998/9804/9804a/9804a.htm
+April 1998.  
+L<http://www.drdobbs.com/database/ternary-search-trees/184410528>
 
 Bentley, Jon and Sedgewick, Robert.  "Fast Algorithms for Sorting and
 Searching Strings".  Eighth Annual ACM-SIAM Symposium on Discrete Algorithms
-New Orleans, January, 1997.  http://www.cs.princeton.edu/~rs/strings/
+New Orleans, January, 1997.  
+L<http://www.cs.princeton.edu/~rs/strings/>
 
 =cut
 

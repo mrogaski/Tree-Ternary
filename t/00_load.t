@@ -1,16 +1,17 @@
 #!/usr/local/bin/perl
 ###########################################################################
-# $Id: 00_load.t,v 1.1 2003/09/27 21:28:46 wendigo Exp $
-###########################################################################
 #
-# Author: Mark Rogaski <wendigo@pobox.com>
-# RCS Revision: $Revision: 1.1 $
-# Date: $Date: 2003/09/27 21:28:46 $
+#  Tree::Ternary
 #
-###########################################################################
+#  Copyright (C) 1999, Mark Rogaski; all rights reserved.
 #
-# See README for license information.
-# 
+#  This module is free software.  You can redistribute it and/or
+#  modify it under the terms of the Artistic License 2.0.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but without any warranty; without even the implied warranty of
+#  merchantability or fitness for a particular purpose.
+#
 ###########################################################################
 
 BEGIN { $| = 1; print "1..1\n"; }

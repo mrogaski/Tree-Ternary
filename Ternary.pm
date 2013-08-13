@@ -1,20 +1,15 @@
 ###########################################################################
-# $Id: Ternary.pm,v 1.1 2003/09/27 21:28:46 wendigo Exp $
-###########################################################################
 #
-# Tree::Ternary
+#  Tree::Ternary
 #
-# Author: Mark Rogaski <wendigo@pobox.com>
-# RCS Revision: $Revision: 1.1 $
-# Date: $Date: 2003/09/27 21:28:46 $
+#  Copyright (C) 1999, Mark Rogaski; all rights reserved.
 #
-###########################################################################
-#
-# Copyright 1999, Mark Rogaski, wendigo@pobox.com, all rights reserved.
-#
-# This package is free software and is provided "as is" without express or
-# implied warranty.  It may be used, redistributed and/or modified under the
-# same terms as Perl itself.
+#  This module is free software.  You can redistribute it and/or
+#  modify it under the terms of the Artistic License 2.0.
+# 
+#  This program is distributed in the hope that it will be useful,
+#  but without any warranty; without even the implied warranty of
+#  merchantability or fitness for a particular purpose.
 #
 ###########################################################################
 
@@ -26,13 +21,13 @@ use vars qw(
     @ISA
     @EXPORT_OK
     %EXPORT_TAGS
-    $VERSION
     @ATTRIBUTES
 );
 
 require Exporter;
 
-$VERSION = '0.03';
+our $VERSION = '0.04';
+$VERSION = eval $VERSION;
 
 @ISA = qw(Exporter);
 
@@ -554,12 +549,18 @@ Tree::Ternary - Perl implementation of ternary search trees.
 
 =head1 DESCRIPTION
 
-Tree::Ternary is a Perl implementation of ternary search trees as described
-by Jon Bentley and Robert Sedgewick.  Ternary search trees are interesting
-data structures that provide a means of storing and accessing strings.  They
-combine the time efficiency of digital tries with the space efficiency of
-binary search trees.  Unlike a hash, they also maintain information about
+Tree::Ternary is a pure Perl implementation of ternary search trees as
+described by Jon Bentley and Robert Sedgewick.  
+
+Ternary search trees are interesting data structures that provide a means
+of storing and accessing strings.  They combine the time efficiency of 
+digital tries with the space efficiency of binary search trees.  Unlike a
+hash, they also maintain information about
 relative order.
+
+For more information on ternary search trees, visit:
+
+L<http://www.cs.princeton.edu/~rs/strings/>
 
 This module is a translation (albeit not a direct one) from the C 
 implementation published in Bentley and Sedgewick's article in the 
@@ -657,7 +658,7 @@ used as attribute indices.
 
 =head1 AUTHOR
 
-Mark Rogaski, wendigo@pobox.com
+Mark Rogaski <mrogaski@cpan.org>
 
 =head1 CREDITS
 
@@ -665,7 +666,7 @@ Many thanks to Tom Phoenix for his invaluable advice and critique.
 
 =head1 COPYRIGHT
 
-Copyright 1999, Mark Rogaski, wendigo@pobox.com, all rights reserved.
+Copyright (C) 1999, Mark Rogaski; all rights reserved.
 
 This package is free software and is provided "as is" without express or
 implied warranty.  It may be used, redistributed and/or modified under the
